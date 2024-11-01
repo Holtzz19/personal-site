@@ -21,7 +21,7 @@ Outside of my academic and professional pursuits, I enjoy reading, going to the 
 - From 17 to 18 years old (2020-2021): COVID-19 took over the world, and my family opted me in for asynchronous learning. I took this as an opportunity to complete all my high school early so that I could volunteer more and work full time instead of part time to be fully prepared for university.
 - 18 years old (2021): I graduated from high school and started my undergraduate degree in Psychology at the University of Ottawa. My interest in understanding people - how they think, feel, and why they do the things they do was one my key motivators in choosing this field of study.
 - 2022: Mr. Lalonde retired, and I moved to Ottawa for my second year of university.
-- May 2023: I began volunteering for Huza Law Office, which shared the same building at the time. I met Victor Lestyan the firm's litigator; he is the reason my interest in litigation solidified.
+- May 2023: I began volunteering for Huza Law Office, and I met Victor Lestyan, the firm's litigator; he is the reason my interest in litigation solidified.
 - July 2023: I was hired by Mr. Huza and he told me that he saw a bright future ahead of me.
 - Present day: I'm completing my final year of my undergrad and I have completed my application to law school.
 
