@@ -2,7 +2,7 @@
 
 I am a fourth-year undergraduate student at [The University of Ottawa](https://www.uottawa.ca/), currently working as an administrative assistant at [Huza Law Office](https://lawcornwall.com). I am in the process of applying to law school to further my passion for becoming a lawyer, with a particular focus on litigation and human rights issues. My experience at Huza Law Office has allowed me to develop valuable skills client communication, case management, organization, time management, and attention to detail, which have all deepened my commitment to the study of law.
 
-Outside of my academic and professional pursuits, I enjoy reading, going to the gym, investing, and exploring diverse topics such as [LLMs (AI)](https://en.wikipedia.org/wiki/Large_language_model), space, and computer science. Please feel free to [reach out](http://holtzz.com/contact) if you would like to connect.
+Outside of my academic and professional pursuits, I enjoy reading, going to the gym, investing, and exploring diverse topics such as [LLMs (AI)](https://en.wikipedia.org/wiki/Large_language_model), [Organoid Intellgience (OI)](https://en.wikipedia.org/wiki/Organoid_intelligence) space, and computer science. Please feel free to [reach out](http://holtzz.com/contact) if you would like to connect.
 
 # Some History Highlights
 
