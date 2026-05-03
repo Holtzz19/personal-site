@@ -3,8 +3,8 @@
 import { useEffect, useRef, useState } from 'react';
 
 const sections = [
-  { name: 'Experience', id: 'experience' },
   { name: 'Education', id: 'education' },
+  { name: 'Experience', id: 'experience' },
   { name: 'Skills', id: 'skills' },
   { name: 'Courses', id: 'courses' },
   { name: 'References', id: 'references' },
@@ -16,7 +16,7 @@ type SectionId = (typeof sections)[number]['id'];
 const INTERSECTION_MARGIN = '-20% 0px -75% 0px';
 
 export default function ResumeNav() {
-  const [activeSection, setActiveSection] = useState<SectionId>('experience');
+  const [activeSection, setActiveSection] = useState<SectionId>('education');
   const observerRef = useRef<IntersectionObserver | null>(null);
 
   useEffect(() => {

@@ -11,27 +11,24 @@ export default function Hero() {
         </div>
 
         <h1 className="hero-title">
-          <span className="hero-name">Michael D&apos;Angelo</span>
+          <span className="hero-name">D. J. P. Holtzman</span>
         </h1>
 
         <p className="hero-tagline">
-          Member of the Technical Staff at{' '}
-          <a href="https://openai.com" className="hero-highlight">
-            OpenAI
+           Legal Assistant at{' '}
+          <a href="https://lawcornwall.com" className="hero-highlight">
+           Huza Law Office{' '} 
           </a>
-          , where I work on{' '}
-          <a href="https://promptfoo.dev" className="hero-highlight">
-            Promptfoo
-          </a>{' '}
-          and agent security.
-          <br />
-          Previously co-founded, scaled, and sold Promptfoo to OpenAI.
+           and Student at{' '}
+          <a href="https://www.yorkvilleu.ca/" className="hero-highlight">
+           Yorkville University{' '}
+          </a>
+           pursuing a future in psychotherapy.
         </p>
 
         <div className="hero-chips">
-          <span className="hero-chip">YC Alum</span>
-          <span className="hero-chip">Stanford ICME</span>
-          <span className="hero-chip">Co-founded Arthena & Matroid</span>
+          <span className="hero-chip">uOttawa Alumni</span>
+          <span className="hero-chip">Yorkville MACP</span>
         </div>
 
         <div className="hero-cta">
@@ -41,6 +38,11 @@ export default function Hero() {
           <Link href="/resume" className="button button-secondary">
             View Resume
           </Link>
+          {/* resume download link if needed
+          <a href="/docs/CV.pdf" download className="button button-secondary">
+            Download Resume
+          </a>
+          */}
         </div>
       </div>
 

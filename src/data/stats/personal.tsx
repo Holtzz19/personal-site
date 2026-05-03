@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import type { StatData } from '../../components/Stats/types';
 
 /** Birth date for age calculation (ISO format) */
-const BIRTH_DATE = '1990-02-05T09:24:00';
+const BIRTH_DATE = '2003-05-19T12:30:00';
 
 /** Milliseconds in an average year (accounting for leap years) */
 const MS_PER_YEAR = 1000 * 60 * 60 * 24 * 365.2421897;
@@ -44,16 +44,23 @@ const data: StatData[] = [
     value: <Age />,
   },
   {
-    key: 'countries',
-    label: 'Countries visited',
-    value: 53,
-    link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
-  },
-  {
     key: 'location',
     label: 'Current city',
-    value: 'New York, NY',
+    value: 'Cornwall, ON',
+    link: 'https://www.google.com/maps/place/Cornwall,+ON'
   },
+  {
+    key: 'spotify',
+    label: 'Liked songs on Spotify',
+    value: '4534',
+    link: 'https://open.spotify.com/user/k9taie3feffp4e4z4g1l6n8pp?nd=1&dlsi=6b2e39f9ed9549b9'
+  },
+  {
+    key: 'goodreads',
+    label: 'Books in my collection',
+    value: '82',
+    link: 'https://www.goodreads.com/user/show/182053439-david-holtzman'
+  }
 ];
 
 export default data;

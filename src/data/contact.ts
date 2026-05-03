@@ -1,10 +1,9 @@
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
-import { faAngellist } from '@fortawesome/free-brands-svg-icons/faAngellist';
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
+import { faXTwitter } from '@fortawesome/free-brands-svg-icons/faXTwitter';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 
 export interface ContactItem {
@@ -15,37 +14,27 @@ export interface ContactItem {
 
 const data: ContactItem[] = [
   {
-    link: 'https://www.linkedin.com/in/michaelldangelo',
+    link: 'https://www.linkedin.com/in/holtzz',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: 'https://github.com/mldangelo',
+    link: 'https://github.com/holtzz19',
     label: 'Github',
     icon: faGithub,
   },
   {
-    link: 'https://x.com/dangelosaurus',
-    label: 'X',
-    icon: faTwitter,
-  },
-  {
-    link: 'https://angel.co/michael-d-angelo',
-    label: 'Angel List',
-    icon: faAngellist,
-  },
-  {
-    link: 'https://www.instagram.com/dangelosaurus/',
+    link: 'https://www.instagram.com/holtzxz/',
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://facebook.com/d',
+    link: 'https://facebook.com/dholtzman44',
     label: 'Facebook',
     icon: faFacebookF,
   },
   {
-    link: 'mailto:michael.l.dangelo@gmail.com',
+    link: 'mailto:david@holtzz.com',
     label: 'Email',
     icon: faEnvelope,
   },

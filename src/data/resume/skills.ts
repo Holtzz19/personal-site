@@ -12,115 +12,120 @@ export interface Category {
 }
 
 const skills: Skill[] = [
-  // Languages
+  {
+    title: 'English',
+    competency: 5,
+    category: ['Spoken Languages'],
+  },
+  {
+    title: 'French',
+    competency: 3,
+    category: ['Spoken Languages'],
+  },
+  {
+    title: 'Javascript',
+    competency: 5,
+    category: ['Web Development', 'Languages'],
+  },
+  {
+    title: 'Typescript',
+    competency: 5,
+    category: ['Web Development', 'Languages'],
+  },
+  {
+    title: 'Node.JS',
+    competency: 5,
+    category: ['Web Development'],
+  },
+  {
+    title: 'React',
+    competency: 5,
+    category: ['Web Development',],
+  },
+  {
+    title: 'Next.JS',
+    competency: 5,
+    category: ['Web Development'],
+  },
+  {
+    title: 'CLIO',
+    competency: 5,
+    category: ['Administrative Tools'],
+  },
   {
     title: 'Python',
     competency: 5,
-    category: ['Languages', 'ML Engineering'],
+    category: ['Languages'],
   },
   {
-    title: 'TypeScript',
+    title: 'C#',
     competency: 5,
-    category: ['Languages', 'Web Development'],
+    category: ['Languages'],
   },
   {
-    title: 'SQL',
-    competency: 4,
-    category: ['Languages', 'Databases'],
-  },
-  // AI & LLM
-  {
-    title: 'AI Agents',
+    title: 'Office Suite',
     competency: 5,
-    category: ['ML Engineering'],
+    category: ['Administrative Tools'],
   },
   {
-    title: 'LLM Evaluation',
+    title: 'Unity (Dye & Durham)',
     competency: 5,
-    category: ['ML Engineering'],
+    category: ['Administrative Tools'],
   },
   {
-    title: 'AI Red-teaming',
+    title: 'Quintalink',
     competency: 5,
-    category: ['ML Engineering'],
+    category: ['Administrative Tools'],
   },
   {
-    title: 'LLM APIs',
+    title: 'Leadership',
     competency: 5,
-    category: ['ML Engineering'],
+    category: ['Soft Skills'],
   },
   {
-    title: 'RAG',
-    competency: 4,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'Prompt Engineering',
-    competency: 4,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'Vector Databases',
-    competency: 4,
-    category: ['ML Engineering', 'Databases'],
-  },
-  {
-    title: 'PyTorch',
-    competency: 4,
-    category: ['ML Engineering'],
-  },
-  {
-    title: 'Pandas',
+    title: 'Organization',
     competency: 5,
-    category: ['ML Engineering', 'Data Engineering'],
+    category: ['Soft Skills'],
   },
-  // Web Development
   {
-    title: 'Node.js',
+    title: 'Time Management',
     competency: 5,
-    category: ['Web Development'],
+    category: ['Soft Skills'],
   },
   {
-    title: 'FastAPI',
-    competency: 4,
-    category: ['Web Development'],
+    title: 'Attention To Detail',
+    competency: 5,
+    category: ['Soft Skills'],
   },
   {
-    title: 'Next.js',
-    competency: 3,
-    category: ['Web Development'],
-  },
-  // Databases
-  {
-    title: 'PostgreSQL',
-    competency: 4,
-    category: ['Databases'],
+    title: 'Debating',
+    competency: 5,
+    category: ['Soft Skills'],
   },
   {
-    title: 'Redis',
-    competency: 3,
-    category: ['Databases'],
+    title: 'Public Speaking',
+    competency: 5,
+    category: ['Soft Skills'],
   },
-  // Infrastructure
   {
-    title: 'AWS',
-    competency: 4,
-    category: ['Infrastructure'],
+    title: 'Empathy',
+    competency: 5,
+    category: ['Soft Skills'],
+  },
+  {
+    title: 'Active Listening',
+    competency: 5,
+    category: ['Soft Skills'],
   },
   {
     title: 'Docker',
-    competency: 4,
-    category: ['Infrastructure'],
+    competency: 5,
+    category: ['Cloud Infrastructure'],
   },
   {
-    title: 'Kubernetes',
-    competency: 3,
-    category: ['Infrastructure'],
-  },
-  {
-    title: 'Observability',
-    competency: 4,
-    category: ['Infrastructure', 'ML Engineering'],
+    title: 'SQL',
+    competency: 5,
+    category: ['Cloud Infrastructure', 'Languages'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
@@ -156,9 +161,28 @@ const FALLBACK_COLORS: { color: string; textColor: 'dark' | 'light' }[] = [
  * Logs a warning in development if there are more categories than colors.
  */
 function buildCategories(skillsList: Skill[]): Category[] {
+  // Define your desired category order here
+  const desiredOrder = [
+    'Spoken Languages',
+    'Soft Skills',
+    'Administrative Tools',
+    'Languages',
+    'Web Development',
+    'Cloud Infrastructure',
+  ];
+
   const uniqueCategories = Array.from(
     new Set(skillsList.flatMap(({ category }) => category)),
-  ).sort();
+  ).sort((a, b) => {
+    const indexA = desiredOrder.indexOf(a);
+    const indexB = desiredOrder.indexOf(b);
+    // Categories in desiredOrder come first, sorted by their position
+    if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+    if (indexA !== -1) return -1;
+    if (indexB !== -1) return 1;
+    // Categories not in desiredOrder are sorted alphabetically
+    return a.localeCompare(b);
+  });
 
   const allColors = [...CATEGORY_COLORS, ...FALLBACK_COLORS];
 
