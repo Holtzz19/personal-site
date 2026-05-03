@@ -14,7 +14,7 @@ export default function NotFound() {
         <span className="not-found-code">404</span>
         <h1 className="not-found-title">Page Not Found</h1>
         <p className="not-found-message">
-          The page you&apos;re looking for doesn&apos;t exist or has been moved.
+          Not sure how you ended up here...
         </p>
         <div className="not-found-actions">
           <Link href="/" className="not-found-button">

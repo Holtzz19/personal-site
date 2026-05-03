@@ -1,96 +1,64 @@
 export const aboutMarkdown = `# Intro
 
-I build products, companies, and teams across AI, security, and infrastructure. Today, I am a Member of the Technical Staff at [OpenAI](https://openai.com), where I work on [Promptfoo](https://promptfoo.dev) and agent security.
+I am a graduate student at [Yorkville University](https://www.yorkvilleu.ca/) and currently work as a legal assistant at [Huza Law Office](https://www.lawcornwall.com/). I am working toward becoming a psychotherapist and am deeply passionate about mental health, human rights, and social justice. I am also interested in the intersection of law and psychology, and I hope to attend law school in the future to become a human rights lawyer with a focus on digital rights.
 
-Previously, I co-founded [Promptfoo](https://promptfoo.dev), [Arthena](https://arthena.com) (acquired by Masterworks), and [Matroid](https://matroid.com). I also led engineering at [Smile ID](https://usesmileid.com) and helped build satellites at [Planet](https://planet.com) and [Planetary Resources](https://en.wikipedia.org/wiki/Planetary_Resources).
-
-In my spare time, I enjoy investing in people and ideas through a [small venture fund](https://skepticalinvestments.biz), focusing on projects with high social impact. If you think I can be helpful to you or your cause, or if you're interested in collaborating, feel free to get in touch.
+Outside of my academic and professional pursuits, I enjoy reading, going to the gym, investing, exploring topics such as [LLMs (AI)](https://en.wikipedia.org/wiki/Large_language_model), [Organoid Intelligence (OI)](https://en.wikipedia.org/wiki/Organoid_intelligence), space, computer science, and reverse engineering. Please feel free to [reach out](http://cv.holtzz.com/contact) if you would like to connect.
 
 # Some History
 
-- My parents put a computer in my bedroom in 1993 when I was 3. It was an old Tandy that ran MS-DOS. My favorite games were Street Rod 2, Wolfenstein 3D, and Tom and Jerry. It had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
-- We subscribed to AOL in 1995. I still remember installing it from a floppy disk onto our brand-new Packard Bell. It took years for me to send my first email.
-- In the summer of 1996, my uncle purchased [MegaRace](https://en.wikipedia.org/wiki/MegaRace) from [Media Play](https://en.wikipedia.org/wiki/Media_Play) and installed it on my mom's work computer. I might have endangered her business by using her computer too much.
-- At 7, I discovered the mini-games hidden in Microsoft Office. I also beat Minesweeper on expert for the first time.
-- At 8, my parents bought me a Sony Mavica MVC-FD71 digital camera after I stole their SLR one too many times. It could fit 10 images to a floppy disk at a 0.3MP resolution. I still have it, and it still works. I've been taking photographs ever since, now with a Nikon D750, D800, and occasionally with a Mamiya 6II.
-- At 10, I built my first website with Microsoft FrontPage on our Pentium III [Gateway](https://en.wikipedia.org/wiki/Gateway,_Inc.). My website was terrible.
-- I was 11 when I built my first [Tesla Coil](https://en.wikipedia.org/wiki/Tesla_coil) (without my parents' permission). Over the next few years, I built several more, including one of the first audio modulated coils and one of the first DRSSTCs.
-- When I was 12, I set the all-time high record at my local laser tag facility by reverse engineering the charging station and weapon protocols with a photo-resistor, micro-cassette recorder, and a lot of patience. I was unstoppable.
-- At 13, I went to space camp and fell in love. I went back two more times and promised myself that I'd work in space. I've since helped build three generations of satellites and have contributed to two more.
-- At 14, I was almost expelled for finding a backdoor into my high school's file server and telling everyone but the faculty members about it. Later that year, I figured out how to turn off the internet firewall by editing system registry keys. I anonymously shared my work months later.
-- At 16, I participated in a foreign exchange program in Dortmund, Germany. Since then, I've gone back almost every year.
-- 14 - 17, I played a lot of video games. My favorites included Counter-Strike Source, Command and Conquer 3, Halo 2, and Age of Empires II.
-- At 18, in the summer before college, my friends and I started playing [Muggle Quidditch](<https://en.wikipedia.org/wiki/Quidditch_(sport)>). We went on to start over 8 teams in the [International Quidditch Association](https://en.wikipedia.org/wiki/International_Quidditch_Association), including the [Buffalo Quidditch Society](https://www.facebook.com/buffaloquidditch/). At our height, we were ranked third in the IQA. Although I don't play anymore, you can still see pictures of me holding a broom while wearing a chess camp t-shirt on Facebook.
-- At 19, I took my first graduate course and published my first academic paper.
-- At 20, I co-authored a grant to build a satellite and managed a 60+ person team for the next two years. You can read more about [that project](https://ubnl.space/glados/).
+- I was born in [Montreal](https://maps.app.goo.gl/vd23YMbSavxkDbGo6) and grew up with an early curiosity about science, technology, music, and people. Some of my earliest interests were shaped by time spent with my father and mother, who took me to museums and concerts and encouraged my fascination with space, science, and creativity.
+- In 2013, my father bought me a [Raspberry Pi](https://www.raspberrypi.org/), which sparked my interest in technology. A few years later, I built my first computer. It was not perfect, but it was the beginning of a much deeper interest in computers, and how technology works.
+- Around the same time, I began watching legal shows such as Law & Order and Boston Legal with my dad, which sparked my interest in law. By my teenage years, I had also developed a strong interest in computer science, reverse engineering, and reading.
+- During high school, I volunteered at an auto body shop on weekends, where I learned about cars, and maintenance. The experience was invaluable and gave me a very fun, but expensive hobby.  During the COVID-19 pandemic, I completed high school through asynchronous learning and used the opportunity to graduate early, work full time, and prepare for university.
+- In 2021, I began my Bachelor of Arts in Psychology at the University of Ottawa. My interest in helping people, understanding, knowing how they think, feel, and make decisions was one of the main reasons I chose psychology.
+- In 2023, I began working at Huza Law Office, where I met two lawyers, Jonathan Huza and Victor Lestyan, both of whom became mentors and encouraged me to pursue law. 
+- In 2024, I graduated from the University of Ottawa. 
+- In 2025, I began my master’s degree in counselling psychology at Yorkville University.
 
-Ask me in person for other stories that I'm afraid to share with the internet.
+- This is a brief overview of my journey so far. There's so much more to my story.
 
 # I Like
 
-- Running.
-- Skiing.
-- Sailing and the sea.
-- Space.
-- Summer.
-- [Books](https://www.goodreads.com/mdangelo).
-- Colored pencils ([Faber-Castell Polychromos](https://www.faber-castell.com/products/art-and-graphic/polychromos)).
-- Podcasts ([The Daily](https://www.nytimes.com/column/the-daily), [The Ezra Klein Show](https://www.nytimes.com/column/ezra-klein-podcast), [Planet Money](https://www.npr.org/sections/money/), [Dwarkesh Podcast](https://www.dwarkesh.com/about/), [The a16z Show](https://a16z.com/podcasts/a16z-podcast/), [The MAD Podcast with Matt Turck](https://firstmark.com/community/the-mad-podcast/), [Uncapped with Jack Altman](https://podcasts.apple.com/us/podcast/uncapped-with-jack-altman/id1801867202), [Darknet Diaries](https://darknetdiaries.com/), and others).
-- [Good design](/).
-- [Photography](https://instagram.com/dangelosaurus).
-
-# Travel / Geography
-
-- I am originally from Buffalo, New York. I have since lived in Palo Alto, Mountain View, San Francisco, Seattle, and New York City.
-- I've been to approximately 50 countries, some of which I have forgotten, many of which I would like to revisit.
-- In 2016, I visited Canada, Ethiopia, Austria, Germany, Belgium, Ireland, Northern Ireland, Italy, Romania, Sweden, Norway, Svalbard, Panama, Costa Rica, Uganda, Japan, and the UAE, mostly in that order.
-- In 2017, I visited Canada, Japan, Denmark, Germany, Sweden, Estonia, Russia, the Netherlands, Belgium, the UK, Spain, Iceland, France, Switzerland, Ethiopia, and Luxembourg.
-- In 2018, I visited Canada, France, Italy, Israel, and the UK.
-- In 2019, I visited Canada, the UK, France, and Switzerland.
-- In 2020, I traveled barely 20 blocks. I stayed in New York and remodeled an apartment.
-- In 2021, I continued remodeling an apartment.
-- In 2022, I switched jobs and visited the UK, France, Greece, Belgium, Luxembourg, Germany, and Kenya.
-- In 2023, I visited France, the UK, Ireland, and Rwanda.
-- I am an Oregon Trail II enthusiast.
+- Computers and computer science
+- Cooking and baking
+- Fall (autumn)
+- Fishing and boating
+- Motorcycles
+- Fountain pens
+- Hiking
+- Movies
+- [Music](https://open.spotify.com/user/k9taie3feffp4e4z4g1l6n8pp?si=Rh1k8dpzTxmVW4qYOlYezQ&nd=1&dlsi=6b2e39f9ed9549b9)
+- Podcasts
+- [Reading](https://www.goodreads.com/Holtzz)
+- Space
+- [The New York Times Wordle](https://www.nytimes.com/games/wordle/index.html)
 
 # Fun Facts
 
-- I have a list of thousands of ideas, like creating matching bow ties for cats and humans.
-- I almost always have a sketchbook with me and a [01 Sakura Pigma Micron Pen](https://www.sakuraofamerica.com/product/pigma-micron/).
-- I can't locate every country on a map.
-- I operate a [small angel fund](http://skepticalinvestments.biz/) with terrible returns.
-- I break about 30 traffic laws on a skateboard or [bicycle](https://www.citibikenyc.com/) every single day.
-- I stack-rank coffee shops, restaurants, and every dog I see in New York.
-- I added this page because many people complained that my site was just my resume.
+- I can't stand tomatoes. (Yes, I'm one of those people.)
+- If you get me talking about a subject I care about, you may not be able to stop me.
+- When I concentrate, I often lose track of time and keep working until I feel something is just right.
+- I am fascinated by the human mind.
+- I am deeply curious and tend to ask a lot of questions when I want to understand something.
+- I am very competitive.
 
-# I Dream Of
+# I Hope To
 
-- Inspiring and feeling inspired.
-- Enabling a brighter future for everyone, regardless of political or socioeconomic status.
-- Treating every individual with genuine kindness and respect.
-- Staying curious.
-- Continually improving.
-- You not checking the commit history for earlier drafts of this file.
+- Continually improve.
+- Write a book.
+- Be an inspiration to others.
+- Enable a brighter future for everyone, regardless of political or socioeconomic status.
+- Stay curious.
 
-# Websites from People I Admire
+# Books I Recommend
 
-- [Alex Peysakhovich](http://alexpeys.github.io/)
-- [Chris Lengerich](http://www.chrislengerich.com/)
-- [Chris Saad](https://www.chrissaad.com/)
-- [Duncan Tomlin](http://duncantomlin.com/)
-- [Ed Kearney](https://edkearney.com/)
-- [Gia Jung](http://giajung.com/)
-- [Hawley Moore](http://hawleymoore.com/)
-- [Holman Gao](https://golmansax.com/)
-- [Ian Webster](http://ianww.com/)
-- [Johanna Flato](https://www.johannaflato.com/)
-- [Judy Mou](http://www.judymou.com/)
-- [Judy Suh](https://www.judysuh.com/)
-- [Kristina Monakhova](https://kristinamonakhova.com/)
-- [Noah Trueblood](http://notrueblood.com/)
-- [Ruoxi Wang](http://ruoxiw.com/)
-- [Tom Sachs](https://www.tomsachs.org/)
-- [Will Holley](https://willholley.com/)
+- [J.R.R Tolkien's Legendarium](https://en.wikipedia.org/wiki/Tolkien%27s_legendarium)
+- [Meditations: A New Translation](https://www.goodreads.com/book/show/61354484-meditations)
+- [1984](https://www.goodreads.com/book/show/61439040-1984)
+- [The Power of Us](https://www.goodreads.com/book/show/56620845-the-power-of-us)
+- [Les Misérables](https://www.goodreads.com/book/show/36377471-les-miserables)
+- [The Righteous Mind](https://www.goodreads.com/book/show/11324722-the-righteous-mind)
 
-If we are friends and you feel like you belong on this list, you're probably right. Submit a PR, or ask me, and I'll add you.
+
+This list includes only some of the books I've read. You can view my complete collection on [Goodreads](https://www.goodreads.com/Holtzz).
 `;

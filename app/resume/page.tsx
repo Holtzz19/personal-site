@@ -16,7 +16,7 @@ import { createPageMetadata } from '@/lib/metadata';
 export const metadata: Metadata = createPageMetadata({
   title: 'Resume',
   description:
-    "Michael D'Angelo's Resume. OpenAI, Promptfoo, Smile ID, Arthena, Matroid, Stanford ICME, YC alum.",
+    "David Holtzman's Resume.",
   path: '/resume/',
 });
 
@@ -27,24 +27,19 @@ export default function ResumePage() {
         <header className="resume-header">
           <h1 className="resume-title">Resume</h1>
           <p className="resume-summary">
-            Engineering leader with 15+ years building products across AI,
-            security, and infrastructure. Currently Member of the Technical
-            Staff at OpenAI, where I work on Promptfoo and agent security.
-            Previously co-founded Promptfoo, built it into an AI security
-            platform, and sold it to OpenAI. Stanford MS, YC alum, previously VP
-            Engineering.
+          {/* commented out - remove to add summary */}
           </p>
         </header>
 
         <ResumeNav />
 
         <div className="resume-content">
-          <section id="experience" className="resume-section">
-            <Experience data={work} />
-          </section>
-
           <section id="education" className="resume-section">
             <Education data={degrees} />
+          </section>
+
+          <section id="experience" className="resume-section">
+            <Experience data={work} />
           </section>
 
           <section id="skills" className="resume-section">

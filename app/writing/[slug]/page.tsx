@@ -13,7 +13,12 @@ interface PageProps {
 
 export function generateStaticParams() {
   const slugs = getPostSlugs();
-  return slugs.map((slug) => ({ slug }));
+  return slugs
+    .map((slug) => getPostBySlug(slug))
+    .filter((post): post is NonNullable<ReturnType<typeof getPostBySlug>> =>
+      Boolean(post && !post.draft),
+    )
+    .map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({
@@ -22,7 +27,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPostBySlug(slug);
 
-  if (!post) {
+  if (!post || post.draft) {
     return {
       title: 'Post Not Found',
     };
@@ -53,7 +58,7 @@ export default async function PostPage({ params }: PageProps) {
   const { slug } = await params;
   const post = getPostBySlug(slug);
 
-  if (!post) {
+  if (!post || post.draft) {
     notFound();
   }
 

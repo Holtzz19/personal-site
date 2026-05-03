@@ -15,7 +15,7 @@ describe('Hero', () => {
     render(<Hero />);
 
     const heading = screen.getByRole('heading', { level: 1 });
-    expect(heading).toHaveTextContent("Michael D'Angelo");
+    expect(heading).toHaveTextContent("David Holtzman");
   });
 
   it('renders the tagline with OpenAI and promptfoo links', () => {
@@ -50,6 +50,11 @@ describe('Hero', () => {
     const resumeButton = screen.getByRole('link', { name: /view resume/i });
     expect(resumeButton).toHaveAttribute('href', '/resume');
     expect(resumeButton).toHaveClass('button-secondary');
+
+    const downloadButton = screen.getByRole('link', { name: /download resume/i });
+    expect(downloadButton).toHaveAttribute('href', '/docs/CV.pdf');
+    expect(downloadButton).toHaveAttribute('download');
+    expect(downloadButton).toHaveClass('button-secondary');
   });
 
   it('has decorative background elements', () => {

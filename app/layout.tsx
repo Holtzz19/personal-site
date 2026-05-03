@@ -27,7 +27,7 @@ const raleway = Raleway({
 });
 
 const siteDescription =
-  'Member of the Technical Staff at OpenAI, working on Promptfoo and agent security. Previously co-founded Promptfoo, Arthena, and Matroid, and led engineering at Smile ID.';
+  'Counselling Psychology graduate student and Legal Assistant. Passionate about mental health, human rights, digital rights, and the intersection of law and psychology.';
 
 export const metadata: Metadata = {
   title: {
@@ -37,13 +37,15 @@ export const metadata: Metadata = {
   description: siteDescription,
   keywords: [
     AUTHOR_NAME,
-    'OpenAI',
-    'Promptfoo',
-    'agent security',
-    'LLM security',
-    'machine learning',
-    'startup founder',
-    'YC',
+    'counselling psychology',
+    'mental health',
+    'human rights',
+    'digital rights',
+    'legal assistant',
+    'psychotherapy',
+    'law',
+    'social justice',
+    'Yorkville University',
   ],
   authors: [{ name: AUTHOR_NAME }],
   creator: AUTHOR_NAME,

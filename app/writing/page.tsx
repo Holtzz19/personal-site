@@ -8,9 +8,9 @@ import { formatDate } from '@/lib/utils';
 
 export const metadata: Metadata = {
   ...createPageMetadata({
-    title: 'Writing',
+    title: 'Blog',
     description:
-      'Articles on AI security, LLM red teaming, and trust & safety.',
+      'My opinion on things.',
     path: '/writing/',
   }),
   alternates: {
@@ -101,7 +101,7 @@ export default function WritingPage() {
       <article className="writing-page">
         <header className="writing-header">
           <div className="writing-header-row">
-            <h1 className="page-title">Writing</h1>
+            <h1 className="page-title">Blog</h1>
             <a
               href="/feed.xml"
               className="writing-rss-link"
@@ -111,6 +111,9 @@ export default function WritingPage() {
               RSS
             </a>
           </div>
+          <p className="writing-intro">
+            Thoughts, links, and short reflections on topics I’m following and things I find worth sharing.
+          </p>
         </header>
 
         <div className="writing-list">

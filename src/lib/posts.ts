@@ -57,7 +57,7 @@ export function getAllPosts(): Post[] {
   const posts = slugs
     .map((slug) => getPostBySlug(slug))
     .filter((post): post is Post => post !== null)
-    .filter((post) => !post.draft || process.env.NODE_ENV === 'development')
+    .filter((post) => !post.draft)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return posts;
