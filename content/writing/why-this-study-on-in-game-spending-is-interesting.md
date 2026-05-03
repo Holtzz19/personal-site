@@ -1,5 +1,5 @@
 ---
-title: Why This Study on In-Game Spending Is Interesting
+title: Why [This](https://doi.org/10.1037/ppm0000654) Study on In-Game Spending Is Interesting
 date: '2026-05-01'
 description: 'A reflection on gaming motivation, online social capital, and compulsive in-game buying.'
 ---
