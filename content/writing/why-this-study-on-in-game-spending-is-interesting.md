@@ -1,8 +1,10 @@
 ---
-title: Why [This](https://doi.org/10.1037/ppm0000654) Study on In-Game Spending Is Interesting
+title: Why This Study on In-Game Spending Is Interesting
 date: '2026-05-01'
 description: 'A reflection on gaming motivation, online social capital, and compulsive in-game buying.'
 ---
+
+[ARTICLE](https://doi.org/10.1037/ppm0000654)
 
 At first, this article looks like it is simply about people spending too much money in video games. But the more I read it, the more interesting it became. Xu et al. (2026) are not just asking whether players buy skins, loot boxes, characters, or upgrades. They are asking why some players may begin spending in a way that becomes difficult to control. That question matters because in-game purchases are no longer a side feature of gaming. For many games, microtransactions are part of the basic structure of play.
 
