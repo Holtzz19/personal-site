@@ -6,17 +6,17 @@ description: 'A reflection on gaming motivation, online social capital, and comp
 
 [ARTICLE](https://doi.org/10.1037/ppm0000654)
 
-At first, this article looks like it is simply about people spending too much money in video games. But the more I read it, the more interesting it became. Xu et al. (2026) are not just asking whether players buy skins, loot boxes, characters, or upgrades. They are asking why some players may begin spending in a way that becomes difficult to control. That question matters because in-game purchases are no longer a side feature of gaming. For many games, microtransactions are part of the basic structure of play.
+At first, this article looks like it is simply about people spending too much money in video games. But the more I read it, the more interesting it became. [Xu et al. (2026)](https://doi.org/10.1037/ppm0000654) are not just asking whether players buy skins, loot boxes, characters, or upgrades. They are asking why some players may begin spending in a way that becomes difficult to control. That question matters because in-game purchases are no longer a side feature of gaming. For many games, microtransactions are part of the basic structure of play.
 
 What I found interesting is that the article does not reduce compulsive gaming buying to “bad self-control.” Instead, it looks at motivation, social belonging, status, and gender differences. In simple terms, the study suggests that some players may not only be buying virtual items. They may also be buying recognition, progress, identity, and a stronger place inside the gaming community.
 
 ## What the Study Examined
 
-Xu et al. (2026) examined the relationship between video game playing motivations and compulsive gaming buying, or CGB. CGB refers to in-game spending that becomes repetitive, difficult to control, and connected to negative consequences. This is different from simply buying a skin, battle pass, or downloadable content once in a while. The concern is not ordinary spending. The concern is when the urge to buy becomes intrusive, hard to manage, and continues even when it causes problems.
+[Xu et al. (2026)](https://doi.org/10.1037/ppm0000654) examined the relationship between video game playing motivations and compulsive gaming buying, or CGB. CGB refers to in-game spending that becomes repetitive, difficult to control, and connected to negative consequences. This is different from simply buying a skin, battle pass, or downloadable content once in a while. The concern is not ordinary spending. The concern is when the urge to buy becomes intrusive, hard to manage, and continues even when it causes problems.
 
 This distinction is important. Gladding (2018) describes Internet addiction as becoming detrimental when online behavior becomes consuming and interferes with health, well-being, sleep, meals, or daily realities. I think that language is useful here because it keeps the focus on impairment and loss of control rather than judging gaming itself. Gaming is not the problem by default. The problem begins when gaming-related behavior becomes difficult to regulate and starts interfering with life.
 
-The study included 571 video game players in mainland China. Xu et al. (2026) looked at six gaming motivations: social, completion, competition, escape, story-driven, and smarty-pants. They also examined online social capital, or OSC. In this article, OSC refers to the sense of belonging, engagement, and social connection that players develop through in-game interaction.
+The study included 571 video game players in mainland China. [Xu et al. (2026)](https://doi.org/10.1037/ppm0000654) looked at six gaming motivations: social, completion, competition, escape, story-driven, and smarty-pants. They also examined online social capital, or OSC. In this article, OSC refers to the sense of belonging, engagement, and social connection that players develop through in-game interaction.
 
 The researchers wanted to know whether these motivations were connected to CGB and whether OSC helped explain the relationship.
 
@@ -30,7 +30,7 @@ In simple terms, some players may feel pressure to keep buying because the purch
 
 ## The Findings
 
-Xu et al. (2026) found that completion and competition motivations were directly associated with CGB. This makes sense. Completion-focused players may want to collect everything, finish every task, unlock every character, or avoid falling behind when new updates arrive. Competitive players may feel pressure to keep up with others, especially when paid content can improve performance or create visible status.
+[Xu et al. (2026)](https://doi.org/10.1037/ppm0000654) found that completion and competition motivations were directly associated with CGB. This makes sense. Completion-focused players may want to collect everything, finish every task, unlock every character, or avoid falling behind when new updates arrive. Competitive players may feel pressure to keep up with others, especially when paid content can improve performance or create visible status.
 
 The study also found that social, completion, competition, escape, and smarty-pants motivations were indirectly associated with CGB through OSC. This means that these motivations were connected to online social capital, and online social capital was connected to compulsive gaming buying.
 
@@ -48,7 +48,7 @@ That is what made the article stand out to me. It is easy to think about in-game
 
 ## Gender Differences
 
-The gender findings were also interesting, but they need to be interpreted carefully. Xu et al. (2026) found that competition had a stronger association with CGB for female players. They also found that the pathway from escape motivation to CGB through OSC was stronger for male players.
+The gender findings were also interesting, but they need to be interpreted carefully. [Xu et al. (2026)](https://doi.org/10.1037/ppm0000654) found that competition had a stronger association with CGB for female players. They also found that the pathway from escape motivation to CGB through OSC was stronger for male players.
 
 I do not read this as meaning that all women play competitively for the same reasons or that all men use games to escape. That would be too simplistic. The better interpretation is that, in this sample, the mechanisms looked different by gender.
 
